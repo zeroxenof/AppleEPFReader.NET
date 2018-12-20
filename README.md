@@ -5,6 +5,16 @@ A simple class which reads the Apple EPF files and exposes it as a **DataReader*
 
 Implements [`IDataReader`](http://msdn.microsoft.com/en-us/library/system.data.idatareader.aspx) and [`IEnumerable`](http://msdn.microsoft.com/en-us/library/9eekhta0.aspx) completely.
 
+----
+
+##Update##
+
+Fix `FetchRecord` functions's bug that could not read data @2018-12-20 by zeroxenof
+
+----
+
+
+
 ##Usage##
 Include `AppleEPFReader.cs` in your project.
 
